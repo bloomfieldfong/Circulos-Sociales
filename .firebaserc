@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "tesis-81471": {
+      "hosting": {
+        "app": [
+          "tesis-81471"
+        ]
+      }
+    }
+  }
+}

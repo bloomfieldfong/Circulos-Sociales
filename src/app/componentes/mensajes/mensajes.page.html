@@ -1,0 +1,29 @@
+<ion-header>
+  <ion-toolbar color = "danger">
+    <ion-title>Mensajes</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+</ion-content>
+
+
+<ion-tabs>
+  <ion-tab-bar slot="bottom"  color = "danger">
+    <ion-tab-button (click)="moveHome()">
+      <ion-icon name="home-outline" ></ion-icon>
+      <ion-label>Inicio</ion-label>
+    </ion-tab-button>
+    <ion-tab-button (click)="moveGroup()">
+      <ion-icon name="people-outline"></ion-icon>
+      <ion-label>Grupos</ion-label>
+    </ion-tab-button>
+    <ion-tab-button>
+      <ion-icon name="chatbox-ellipses"></ion-icon>
+      <ion-label>Mensajes</ion-label>
+    </ion-tab-button>
+    <ion-tab-button (click)="movePerfil()">
+      <ion-icon name="person-outline"></ion-icon>
+      <ion-label>Perfil</ion-label>
+    </ion-tab-button>
+  </ion-tab-bar>

@@ -1,0 +1,15 @@
+{
+  "node": {
+    "dns": "empty",
+    "net": "empty"
+  },
+  "name": "tesis",
+  "integrations": {
+    "capacitor": {},
+    "cordova": {}
+
+  },
+
+  "type": "angular"
+}
+

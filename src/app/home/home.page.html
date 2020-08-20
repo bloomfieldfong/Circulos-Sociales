@@ -1,0 +1,45 @@
+<ion-header [translucent]="true">
+  <ion-toolbar color = "danger">
+    <ion-title>
+      Inicio
+    </ion-title>
+  </ion-toolbar>
+
+  <ion-list>
+    <ion-item>
+      <ion-item>
+        <ion-avatar slot ="start">
+          <ion-image src = "https://picsum.photos/200/300.jpg"></ion-image>
+        </ion-avatar>
+        <ion-label>
+          <h2><b>Mi chat</b></h2>
+          <h3>Esto es un chat grupal</h3>
+          <p>Accede dando click y escribe un mensaje</p>
+        </ion-label>
+      </ion-item>
+    </ion-item>
+
+  </ion-list>
+  <ion-button (click)="Onlogout()">Log out</ion-button>
+</ion-header>
+
+
+<ion-tabs>
+  <ion-tab-bar slot="bottom"  color = "danger">
+    <ion-tab-button>
+      <ion-icon name="home"></ion-icon>
+      <ion-label>Inicio</ion-label>
+    </ion-tab-button>
+    <ion-tab-button (click) = "moveGroup()">
+      <ion-icon name="people-outline"></ion-icon>
+      <ion-label>Grupos</ion-label>
+    </ion-tab-button>
+    <ion-tab-button (click) = "moveMensajes()">
+      <ion-icon name="chatbox-ellipses-outline"></ion-icon>
+      <ion-label>Mensajes</ion-label>
+    </ion-tab-button>
+    <ion-tab-button (click) = "movePerfil()">
+      <ion-icon name="person-outline"></ion-icon>
+      <ion-label>Perfil</ion-label>
+    </ion-tab-button>
+  </ion-tab-bar>

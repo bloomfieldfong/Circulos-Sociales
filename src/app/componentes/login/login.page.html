@@ -1,0 +1,24 @@
+<ion-header>
+  <ion-toolbar color = "danger">
+    <ion-title text-center>Iniciar Sesión</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+  <img class = "icon" src = "assets/icon/logo.png" alt = ""> 
+</ion-content>
+
+<ion-content padding>
+<ion-item>
+  <ion-label position = "floating">Correo</ion-label>
+  <ion-input type = "text" [(ngModel)]= "email" name = "Correo"></ion-input>
+</ion-item>
+
+<ion-item>
+  <ion-label position = "floating">Contraseña</ion-label>
+  <ion-input type = "password" [(ngModel)]= "password" name = "Usuario"></ion-input>
+</ion-item>
+
+<br>
+<ion-button (click)= "onSubmitLogin()" expand = "block">Ingresar</ion-button>
+  
