@@ -1,0 +1,3 @@
+# Circulos-Sociales
+
+Este proyecto consiste en una plataforma móvil en donde los estudiantes de la Universidad del Valle, pueden encontrar un grupo de iguales que estén viviendo la misma transición y formarlo de manera interactiva. Este mismo tendrá un método de filtrado para encontrar compañeros que se encuentren en la misma situación que él, por ejemplo, mismos cursos, provenientes de un mismo lugar, misma carrera o que estén cursando el mismo año.  El proyecto contará con una opción de ayuda en caso de que el usuario tenga algún percance menor, las personas que estén alrededor serán notificadas en caso de que estas puedan brindarle ayuda.  Este se realizará por medio de programación de un webapp, utilizando la metodología de SCRUM. 
